@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <servlet>
+    <servlet-name>InsertPaymentServlet</servlet-name>
+    <servlet-class>com.Payment.InsertPaymentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertPaymentServlet</servlet-name>
+    <url-pattern>/insert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CancelPaymentServlet</servlet-name>
+    <servlet-class>com.Payment.CancelPaymentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CancelPaymentServlet</servlet-name>
+    <url-pattern>/cancel</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DeletePaymentServlet</servlet-name>
+    <servlet-class>com.Payment.DeletePaymentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeletePaymentServlet</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+</web-app>

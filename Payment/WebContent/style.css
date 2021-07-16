@@ -1,0 +1,163 @@
+@charset "ISO-8859-1";
+/*for the whole page*/
+* {margin:0; padding:0;}
+*.clearfix{overflow:auto;}
+* {text-decoration:none;}
+* {box-sizing: border-box;}
+
+/*Header*/
+.wrapper{
+	margin:0 auto;	
+	width:100%;
+}
+
+
+body {
+	font-family: 'Source Serif Pro', serif;
+}
+
+/*navigation bar*/
+.top-bar{
+	width : 100% ;
+	background-color: #226FBA;
+	margin :0 auto ;
+	border-radius: 25px;
+} 
+.account{
+	float : left ;
+}
+.account ul {
+	list-style-type: none ;
+	background-color: #226FBA;
+}
+.account ul li {
+	float : left;
+}
+.account ul li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+}
+
+.account ul li a:hover {
+	color : #F77A18;
+}
+/*navigation*/
+.navigation{
+	float : right;
+}
+.navigation ul{
+	list-style-type: none ;
+	background-color: #226FBA;
+}
+.navigation ul li {
+	float: left;
+}
+.navigation ul li a{
+	display: block;
+	text-align : center;
+	padding : 14px 16px;
+	text-decoration: none;
+	color : white;
+}
+
+.navigation ul li a:hover {
+	color : #F77A18 ;
+}
+
+/*forms*/
+.forms {
+	width : 100%;
+	length : 900px ;
+	border-radius : 30px ;
+	border-color : #F77A18 ;
+	background-color: white;
+	display : block;
+	text-align : center;
+	padding : 40px;
+	margin: auto;
+	height : auto;
+}
+
+.forms form {
+	display: inline-block;
+	text-align : center;
+	padding : 20px 10px 55px 10px ;
+	margin : 20px 10px 30px 10px;
+}
+
+.forms input {
+	border-color : #F77A18 ;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: white;
+	padding: 12px 20px;
+}
+
+input[type=text]{
+  width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  
+}
+
+#pid {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+}
+
+#view{
+	padding: 160px 10px 160px 10px ;
+}
+
+/*table*/
+table{
+	border-collapse: collapse;
+  	width: 50%;
+}
+
+th , td {
+	text-align: center;
+  	padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+/*footer*/
+.footer {
+	background-color: #226FBA;
+	border-radius: 25px;
+}
+.footer p {
+	float : left;
+	text-align : left;
+	padding : 10px 10px;
+}
+.footer ul {
+	list-style-type: none;
+	background-color : #226FBA;
+}
+.footer ul li {
+	float : right;
+}
+.footer ul li a {
+	display: block;
+	text-align : center;
+	padding : 10px 10px;
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
